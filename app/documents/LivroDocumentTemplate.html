@@ -1,0 +1,62 @@
+<p style="margin: 1px 0px; text-align: center;"> </p>
+<p style="margin: 1px 0px; text-align: center;"><span style="font-size: 24pt;">Ficha do livro</span></p>
+<p style="margin: 1px 0;"> </p>
+<table class="mce-table" style="border: 1px solid black; height: 225px; width: 949px;" border="1" cellspacing="0" cellpadding="5">
+<tbody>
+<tr>
+<td style="width: 243px;">Título</td>
+<td style="width: 680px;">{$titulo}</td>
+</tr>
+<tr>
+<td style="width: 243px;">Autor</td>
+<td style="width: 680px;">{$autor_principal->nome}</td>
+</tr>
+<tr>
+<td style="width: 243px;">Classificação</td>
+<td style="width: 680px;">{$classificacao->nome}</td>
+</tr>
+<tr>
+<td style="width: 243px;">Coleção</td>
+<td style="width: 680px;">{$colecao->nome}</td>
+</tr>
+<tr>
+<td style="width: 243px;">Edição</td>
+<td style="width: 680px;">{$edicao}</td>
+</tr>
+<tr>
+<td style="width: 243px;">Volume</td>
+<td style="width: 680px;">{$volume}</td>
+</tr>
+<tr>
+<td style="width: 243px;">Data de publicação</td>
+<td style="width: 680px;">{$dt_publicacao}</td>
+</tr>
+<tr>
+<td style="width: 243px;">Local de publicação</td>
+<td style="width: 680px;">{$local_publicacao}</td>
+</tr>
+</tbody>
+</table>
+<p style="margin: 1px 0;"><br /><br /></p>
+<table class="mce-table" style="border-collapse: collapse; border: 1px solid #929292; height: 82px; width: 958px;" border="1" cellspacing="0" cellpadding="3" data-detailmodel="Exemplar.livro_id">
+<thead>
+<tr style="background-color: #96c0e6;">
+<th style="width: 52px; text-align: center;">Id</th>
+<th style="width: 156px; text-align: center;">Status</th>
+<th style="width: 171px; text-align: center;">Código de barras</th>
+<th style="width: 156px; text-align: center;">Aquisição</th>
+<th style="width: 157px; text-align: center;">Preço de custo</th>
+<th style="width: 99px; text-align: center;">Observação</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color: #f0f0f0;">
+<td style="width: 52px; text-align: center;">{$id}</td>
+<td style="width: 156px; text-align: center;">{$status->nome}</td>
+<td style="width: 171px; text-align: center;">{$codigo_barras}</td>
+<td style="width: 156px; text-align: center;">{$dt_aqusicao}</td>
+<td style="width: 157px; text-align: center;">{$preco_custo}</td>
+<td style="width: 99px; text-align: center;">{$obs}</td>
+</tr>
+</tbody>
+</table>

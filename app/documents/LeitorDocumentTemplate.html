@@ -1,0 +1,65 @@
+<p style="margin: 1px 0;"> </p>
+<p style="margin: 1px 0px; text-align: center;"><span style="font-size: 24pt;">Ficha do Leitor</span></p>
+<p style="margin: 1px 0px; text-align: center;"> </p>
+<table class="mce-table" style="border: 1px solid black; height: 221px; width: 934px;" border="1" cellspacing="0" cellpadding="5">
+<tbody>
+<tr>
+<td style="width: 205px;">
+<p style="margin: 1px 0;">Nome:</p>
+</td>
+<td style="width: 703px;">{$nome}</td>
+</tr>
+<tr>
+<td style="width: 205px;">Categoria:</td>
+<td style="width: 703px;">{$categoria->nome}</td>
+</tr>
+<tr>
+<td style="width: 205px;">Endereço: </td>
+<td style="width: 703px;">{$endereco}</td>
+</tr>
+<tr>
+<td style="width: 205px;">Cidade: </td>
+<td style="width: 703px;">{$cidade->nome} - {$cidade->estado->nome} </td>
+</tr>
+<tr>
+<td style="width: 205px;">Data de nascimento: </td>
+<td style="width: 703px;">{$dt_nascimento}</td>
+</tr>
+<tr>
+<td style="width: 205px;">Data de cadastro </td>
+<td style="width: 703px;">{$dt_cadastro}</td>
+</tr>
+<tr>
+<td style="width: 205px;">E-mail: </td>
+<td style="width: 703px;">{$email}</td>
+</tr>
+<tr>
+<td style="width: 205px;">Telefone: </td>
+<td style="width: 703px;">{$telefone}</td>
+</tr>
+</tbody>
+</table>
+<p style="margin: 1px 0;"> </p>
+<p style="margin: 1px 0;"> </p>
+<table class="mce-table" style="border-collapse: collapse; border: 1px solid #929292; height: 50px; width: 930px;" border="1" cellspacing="0" cellpadding="3" data-detailmodel="Emprestimo.leitor_id">
+<thead>
+<tr style="background-color: #96c0e6;">
+<th style="width: 48px; text-align: center;">Id</th>
+<th style="width: 156px; text-align: center;">Exemplar</th>
+<th style="width: 188px; text-align: center;">Empréstimo</th>
+<th style="width: 175px; text-align: center;">
+<p style="margin: 1px 0;">Devolução</p>
+</th>
+<th style="width: 327px; text-align: center;">Valor multa</th>
+</tr>
+</thead>
+<tbody>
+<tr style="background-color: #f0f0f0;">
+<td style="width: 48px; text-align: center;">{$id}</td>
+<td style="width: 156px; text-align: center;">{$exemplar->livro->titulo}</td>
+<td style="width: 188px; text-align: center;">{$dt_emprestimo}</td>
+<td style="width: 175px; text-align: center;">{$dt_devolucao}</td>
+<td style="width: 327px; text-align: center;">{$valor_multa}</td>
+</tr>
+</tbody>
+</table>

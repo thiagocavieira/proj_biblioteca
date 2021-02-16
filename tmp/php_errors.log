@@ -1,0 +1,9 @@
+[11-Feb-2021 20:19:17 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\adianti\proj_biblioteca\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[11-Feb-2021 20:19:40 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\adianti\proj_biblioteca\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[11-Feb-2021 20:20:02 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\adianti\proj_biblioteca\install.php on line 16
+[16-Feb-2021 18:32:22 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\adianti\proj_biblioteca\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[16-Feb-2021 18:32:43 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\adianti\proj_biblioteca\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[16-Feb-2021 18:32:44 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\adianti\proj_biblioteca\lib\adianti\core\AdiantiTemplateParser.php on line 69
+[16-Feb-2021 18:33:04 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\adianti\proj_biblioteca\install.php on line 16
+[16-Feb-2021 18:35:37 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\adianti\proj_biblioteca\install.php on line 16
+[16-Feb-2021 18:38:41 America/Sao_Paulo] PHP Notice:  Undefined index: QUERY_STRING in C:\adianti\proj_biblioteca\lib\adianti\core\AdiantiTemplateParser.php on line 69

@@ -1,0 +1,17 @@
+SELECT setval('assunto_id_seq', coalesce(max(id),0) + 1, false) FROM assunto;
+SELECT setval('autor_id_seq', coalesce(max(id),0) + 1, false) FROM autor;
+SELECT setval('categoria_id_seq', coalesce(max(id),0) + 1, false) FROM categoria;
+SELECT setval('cidade_id_seq', coalesce(max(id),0) + 1, false) FROM cidade;
+SELECT setval('classificacao_id_seq', coalesce(max(id),0) + 1, false) FROM classificacao;
+SELECT setval('colecao_id_seq', coalesce(max(id),0) + 1, false) FROM colecao;
+SELECT setval('configuracao_id_seq', coalesce(max(id),0) + 1, false) FROM configuracao;
+SELECT setval('editora_id_seq', coalesce(max(id),0) + 1, false) FROM editora;
+SELECT setval('emprestimo_id_seq', coalesce(max(id),0) + 1, false) FROM emprestimo;
+SELECT setval('estado_id_seq', coalesce(max(id),0) + 1, false) FROM estado;
+SELECT setval('evento_id_seq', coalesce(max(id),0) + 1, false) FROM evento;
+SELECT setval('exemplar_id_seq', coalesce(max(id),0) + 1, false) FROM exemplar;
+SELECT setval('leitor_id_seq', coalesce(max(id),0) + 1, false) FROM leitor;
+SELECT setval('livro_id_seq', coalesce(max(id),0) + 1, false) FROM livro;
+SELECT setval('livro_assunto_id_seq', coalesce(max(id),0) + 1, false) FROM livro_assunto;
+SELECT setval('livro_autor_id_seq', coalesce(max(id),0) + 1, false) FROM livro_autor;
+SELECT setval('status_id_seq', coalesce(max(id),0) + 1, false) FROM status;

@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <menuitem label="Cadastros básicos">
+    <icon>fas:archive fa-fw </icon>
+    <menu>
+      <menuitem label="Status">
+        <icon>far:circle fa-fw </icon>
+        <action>StatusList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Eventos">
+        <icon>far:circle fa-fw </icon>
+        <action>EventoCalendarFormView</action>
+      </menuitem>
+      <menuitem label="Estados">
+        <icon>far:circle fa-fw </icon>
+        <action>EstadoList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Cidades">
+        <icon>far:circle fa-fw </icon>
+        <action>CidadeList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Configurações">
+        <icon>far:circle fa-fw </icon>
+        <action>ConfiguracaoList#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Catalogação">
+    <icon>fa:book fa-fw </icon>
+    <menu>
+      <menuitem label="Livros">
+        <icon>far:circle fa-fw </icon>
+        <action>LivroList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Classificações">
+        <icon>far:circle fa-fw </icon>
+        <action>ClassificacaoList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Assuntos">
+        <icon>far:circle fa-fw </icon>
+        <action>AssuntoList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Autores">
+        <icon>far:circle fa-fw </icon>
+        <action>AutorList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Coleções">
+        <icon>far:circle fa-fw </icon>
+        <action>ColecaoList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Categorias">
+        <icon>far:circle fa-fw </icon>
+        <action>CategoriaList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Editoras">
+        <icon>far:circle fa-fw </icon>
+        <action>EditoraList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Autor2">
+        <icon>far:circle fa-fw </icon>
+        <action>AutorForm2#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Membros">
+    <icon>fas:users fa-fw </icon>
+    <menu>
+      <menuitem label="Leitores">
+        <icon>far:circle fa-fw </icon>
+        <action>LeitorList#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Circulação">
+    <icon>fas:exchange-alt fa-fw </icon>
+    <menu>
+      <menuitem label="Emprestar">
+        <icon>far:circle fa-fw </icon>
+        <action>EmprestimoLivroForm#method=onShow</action>
+      </menuitem>
+      <menuitem label="Empréstimos">
+        <icon>far:circle fa-fw </icon>
+        <action>EmprestimoList#method=onShow</action>
+      </menuitem>
+      <menuitem label="Devolução">
+        <icon>far:circle fa-fw </icon>
+        <action>DevolucaoList#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Relatórios">
+    <icon>far:file-pdf fa-fw </icon>
+    <menu>
+      <menuitem label="Códigos de barras">
+        <icon>far:circle fa-fw </icon>
+        <action>CodigoBarrasForm#method=onShow</action>
+      </menuitem>
+      <menuitem label="QR code">
+        <icon>far:circle fa-fw </icon>
+        <action>QRCodeForm#method=onShow</action>
+      </menuitem>
+      <menuitem label="Leitores">
+        <icon>far:circle fa-fw </icon>
+        <action>LeitorReport#method=onShow</action>
+      </menuitem>
+      <menuitem label="Empréstimos">
+        <icon>far:circle fa-fw </icon>
+        <action>EmprestimoReport#method=onShow</action>
+      </menuitem>
+      <menuitem label="Empréstimos atrasados">
+        <icon>far:circle fa-fw </icon>
+        <action>EmprestimoAtrasadoReport#method=onShow</action>
+      </menuitem>
+      <menuitem label="Livros">
+        <icon>far:circle fa-fw </icon>
+        <action>LivroReport#method=onShow</action>
+      </menuitem>
+      <menuitem label="Relatório de multas">
+        <icon>far:circle fa-fw </icon>
+        <action>MultaReport#method=onShow</action>
+      </menuitem>
+      <menuitem label="Ficha do leitor em lote">
+        <icon>far:circle fa-fw </icon>
+        <action>LeitorBatchDocument#method=onShow</action>
+      </menuitem>
+      <menuitem label="Documento do livro em lote">
+        <icon>far:circle fa-fw </icon>
+        <action>LivroBatchDocument#method=onShow</action>
+      </menuitem>
+      <menuitem label="Ficha do livro em lote">
+        <icon>far:circle fa-fw </icon>
+        <action>LivroBatchDrawing#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Gráficos">
+    <icon>far:chart-bar fa-fw </icon>
+    <menu>
+      <menuitem label="Empréstimos por dia">
+        <icon>far:circle fa-fw </icon>
+        <action>EmprestimoDiaChart#method=onShow</action>
+      </menuitem>
+      <menuitem label="Empréstimos por mês">
+        <icon>far:circle fa-fw </icon>
+        <action>EmprestimoMesChart#method=onShow</action>
+      </menuitem>
+      <menuitem label="Empréstimos por coleção de livro">
+        <icon>far:circle fa-fw </icon>
+        <action>EmprestimoColecaoChart#method=onShow</action>
+      </menuitem>
+      <menuitem label="Empréstimos por classificação de livro">
+        <icon>far:circle fa-fw </icon>
+        <action>EmprestimoClassificacaoChart#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="_t{Administration}">
+    <icon>fas:home fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <icon>fas:tachometer-alt fa-fw</icon>
+        <action>SystemAdministrationDashboard</action>
+      </menuitem>
+      <menuitem label="_t{Programs}">
+        <icon>far:file-code fa-fw</icon>
+        <action>SystemProgramList</action>
+      </menuitem>
+      <menuitem label="_t{Groups}">
+        <icon>fas:users fa-fw</icon>
+        <action>SystemGroupList</action>
+      </menuitem>
+      <menuitem label="_t{Units}">
+        <icon>fas:university fa-fw</icon>
+        <action>SystemUnitList</action>
+      </menuitem>
+      <menuitem label="_t{Users}">
+        <icon>fas:user fa-fw</icon>
+        <action>SystemUserList</action>
+      </menuitem>
+      <menuitem label="_t{Database explorer}">
+        <icon>fas:database fa-fw</icon>
+        <action>SystemDatabaseExplorer</action>
+      </menuitem>
+      <menuitem label="_t{SQL Panel}">
+        <icon>fas:table fa-fw</icon>
+        <action>SystemSQLPanel</action>
+      </menuitem>
+      <menuitem label="_t{Menu editor}">
+        <icon>far:edit fa-fw</icon>
+        <action>SystemMenuEditor</action>
+      </menuitem>
+      <menuitem label="PHP Info">
+        <icon>fas:info-circle fa-fw</icon>
+        <action>SystemPHPInfoView</action>
+      </menuitem>
+      <menuitem label="_t{Preferences}">
+        <icon>fas:cog fa-fw</icon>
+        <action>SystemPreferenceForm#method=onEdit</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="_t{Documents}">
+    <icon>far:file-alt fa-fw</icon>
+    <menu>
+      <menuitem label="_t{Send document}">
+        <icon>fas:cloud-upload-alt fa-fw</icon>
+        <action>SystemDocumentUploadForm</action>
+      </menuitem>
+      <menuitem label="_t{My documents}">
+        <icon>fas:archive fa-fw</icon>
+        <action>SystemDocumentList</action>
+      </menuitem>
+      <menuitem label="_t{Shared with me}">
+        <icon>fas:share-alt fa-fw</icon>
+        <action>SystemSharedDocumentList</action>
+      </menuitem>
+      <menuitem label="_t{Categories}">
+        <icon>fas:th fa-fw</icon>
+        <action>SystemDocumentCategoryFormList</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Logs">
+    <icon>fas:desktop fa-fw</icon>
+    <menu>
+      <menuitem label="Dashboard">
+        <icon>fas:tachometer-alt fa-fw</icon>
+        <action>SystemLogDashboard</action>
+      </menuitem>
+      <menuitem label="_t{Access Log}">
+        <icon>fas:key fa-fw</icon>
+        <action>SystemAccessLogList</action>
+      </menuitem>
+      <menuitem label="_t{Change Log}">
+        <icon>fas:film fa-fw</icon>
+        <action>SystemChangeLogView</action>
+      </menuitem>
+      <menuitem label="_t{SQL Log}">
+        <icon>fas:database fa-fw</icon>
+        <action>SystemSqlLogList</action>
+      </menuitem>
+      <menuitem label="_t{Request Log}">
+        <icon>fas:globe fa-fw</icon>
+        <action>SystemRequestLogList</action>
+      </menuitem>
+      <menuitem label="_t{PHP Log}">
+        <icon>fas:exclamation-triangle fa-fw</icon>
+        <action>SystemPHPErrorLogView</action>
+      </menuitem>
+      <menuitem label="Session dump">
+        <icon>fas:code fa-fw</icon>
+        <action>SystemSessionDumpView</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Logout">
+    <icon>fas:sign-out-alt fa-fw</icon>
+    <action>LoginForm#method=onLogout#static=1</action>
+  </menuitem>
+</menu>

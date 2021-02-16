@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+  <menuitem label="Cadastros básicos">
+    <icon>fas:archive fa-fw </icon>
+    <menu>  
+</menu>
+  </menuitem>
+  <menuitem label="Catalogação">
+    <icon>fa:book fa-fw </icon>
+    <menu>
+      <menuitem label="Public Livros">
+        <icon>far:circle fa-fw </icon>
+        <action>PublicLivroList#method=onShow</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+  <menuitem label="Membros">
+    <icon>fas:users fa-fw </icon>
+    <menu>  
+</menu>
+  </menuitem>
+  <menuitem label="Circulação">
+    <icon>fas:exchange-alt fa-fw </icon>
+    <menu>  
+</menu>
+  </menuitem>
+  <menuitem label="Relatórios">
+    <icon>far:file-pdf fa-fw </icon>
+    <menu>  
+</menu>
+  </menuitem>
+  <menuitem label="Gráficos">
+    <icon>far:chart-bar fa-fw </icon>
+    <menu>  
+</menu>
+  </menuitem>
+  <menuitem label="Login">
+    <icon>fas:shield-alt fa-fw</icon>
+    <menu>
+      <menuitem label="Login">
+        <icon>fa:sign-in-alt fa-fw</icon>
+        <action>LoginForm</action>
+      </menuitem>
+      <menuitem label="_t{Create account}">
+        <icon>fa:user-plus fa-fw</icon>
+        <action>SystemRegistrationForm</action>
+      </menuitem>
+      <menuitem label="_t{Reset password}">
+        <icon>fa:eraser fa-fw</icon>
+        <action>SystemRequestPasswordResetForm</action>
+      </menuitem>
+    </menu>
+  </menuitem>
+</menu>
