@@ -13,7 +13,7 @@ new TSession;
 ApplicationTranslator::setLanguage( TSession::getValue('user_language'), true );
 
 if ( TSession::getValue('logged') )
-{
+{ 
     $content = file_get_contents("app/templates/{$theme}/layout.html");
     $menu    = AdiantiMenuBuilder::parse('menu.xml', $theme);
     $content = str_replace('{MENU}', $menu, $content);
